@@ -1,0 +1,12 @@
+group = 'com.example.generativeai.testcontainers'
+version = '0.0.1-SNAPSHOT'
+
+apply plugin: 'application'
+
+mainClassName = 'com.example.generativeai.testcontainers.GraniteExample'
+
+dependencies {
+    implementation 'org.testcontainers:ollama'
+    implementation 'dev.langchain4j:langchain4j-ollama'
+    implementation 'dev.langchain4j:langchain4j-local-ai'
+}
